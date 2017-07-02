@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ignore": [],
+  "execMap": {
+    "js": "babel-node"
+  },
+  "watch": [
+    "build/"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
