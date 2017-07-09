@@ -11,6 +11,7 @@ WORKDIR $APP_DIR/build
 #This image comes with Node.js and NPM already installed so the next thing we need to do is to install your app dependencies using the npm binary:
 COPY package.json $APP_DIR
 RUN npm install
+RUN tsc
 
 # Bundle app source
 COPY . $APP_DIR
